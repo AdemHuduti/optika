@@ -11,7 +11,7 @@ export default function Contact() {
       <div className="lightBg">
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Let's get in touch</h1>
+            <h1 className="font40 extraBold">Kontaktirajte nas</h1>
             <p className="font13">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
               <br />
@@ -21,16 +21,16 @@ export default function Contact() {
           <div className="row" style={{ paddingBottom: "30px" }}>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
               <Form>
-                <label className="font13">First name:</label>
+                <label className="font13">Ime i prezime:</label>
                 <input type="text" id="fname" name="fname" className="font20 extraBold" />
                 <label className="font13">Email:</label>
                 <input type="text" id="email" name="email" className="font20 extraBold" />
-                <label className="font13">Subject:</label>
+                <label className="font13">Naslov:</label>
                 <input type="text" id="subject" name="subject" className="font20 extraBold" />
                 <textarea rows="4" cols="50" type="text" id="message" name="message" className="font20 extraBold" />
               </Form>
               <SumbitWrapper className="flex">
-                <ButtonInput type="submit" value="Send Message" className="pointer animate radius8" style={{ maxWidth: "220px" }} />
+                <ButtonInput type="submit" value="Pošalji poruku" className="pointer animate radius8" style={{ maxWidth: "220px" }} />
               </SumbitWrapper>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex">

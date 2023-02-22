@@ -3,7 +3,7 @@ import styled from "styled-components";
 // Components
 import FullButton from "../Buttons/FullButton";
 // Assets
-import HeaderImage from "../../assets/img/header-img.png";
+import HeaderImage from "../../assets/img/home-page-img-euro-optik.png";
 import img from "../../assets/img/img1.jpg";
 import QuotesIcon from "../../assets/svg/Quotes";
 import Dots from "../../assets/svg/Dots";
@@ -13,10 +13,9 @@ export default function Header() {
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <h1 className="extraBold font60">Naziv kompanije</h1>
+          <h1 className="extraBold font60">Euro Optik</h1>
           <HeaderP className="font13 semiBold">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-            voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+            Eurooptik je oduvijek bio poznat po svojoj posvećenosti kvalitetu i zadovoljstvu kupaca. Kompanija koristi samo najkvalitetnije materijale i najnovije tehnologije u proizvodnji svojih proizvoda, osiguravajući da svaki artikal bude izrađen po najvišim standardima. Optički okviri koje nudi Eurooptik su istovremeno elegantni i funkcionalni, nudeći kupcima razne opcije za izbor.
           </HeaderP>
           <BtnWrapper>
             <FullButton title="Get Started" />
