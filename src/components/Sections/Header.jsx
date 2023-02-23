@@ -15,7 +15,9 @@ export default function Header() {
         <div>
           <h1 className="extraBold font60">Euro Optik</h1>
           <HeaderP className="font13 semiBold">
-            Eurooptik je oduvijek bio poznat po svojoj posvećenosti kvalitetu i zadovoljstvu kupaca. Kompanija koristi samo najkvalitetnije materijale i najnovije tehnologije u proizvodnji svojih proizvoda, osiguravajući da svaki artikal bude izrađen po najvišim standardima. Optički okviri koje nudi Eurooptik su istovremeno elegantni i funkcionalni, nudeći kupcima razne opcije za izbor.
+            Eurooptik je dugogodišnja kompanija koja pruža usluge kupcima od <strong>1998.</strong> godine.
+Kompanija je specijalizovana za veleprodaju optičkih okvira, sočiva i satova. Sa sjedištem u Sarajevu, Bosni i Hercegovini, Eurooptik posluje u regiji više od <strong>20</strong> godina.
+
           </HeaderP>
           <BtnWrapper>
             <FullButton title="Get Started" />
