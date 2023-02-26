@@ -53,6 +53,7 @@ Kompanija je specijalizovana za veleprodaju optičkih okvira, sočiva i satova. 
 const Wrapper = styled.section`
   padding-top: 80px;
   width: 100%;
+  position: relative;
   min-height: 840px;
   @media (max-width: 960px) {
     flex-direction: column;
@@ -100,8 +101,8 @@ const GreyDiv = styled.div`
   width: 30%;
   height: 700px;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 20%;
+  left: 80%;
   z-index: 0;
   @media (max-width: 960px) {
     display: none;

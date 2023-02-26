@@ -11,14 +11,15 @@ export default function Contact() {
       <div className="lightBg">
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Kontaktirajte nas</h1>
+            <h1 className="font40 extraBold textCenter">Kontaktirajte nas</h1>
             <p className="font13">
               
               <br />
            
             </p>
           </HeaderInfo>
-          <div className="row" style={{ paddingBottom: "30px" }}>
+          {/* Google map-u treba implementirati  */}
+          <div className="row" style={{ paddingBottom: "30px", justifyContent: 'center' }}>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
               <Form>
                 <label className="font13">Ime i prezime:</label>
@@ -33,7 +34,7 @@ export default function Contact() {
                 <ButtonInput type="submit" value="Pošalji poruku" className="pointer animate radius8" style={{ maxWidth: "220px" }} />
               </SumbitWrapper>
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex">
+            {/* <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
               <div style={{ width: "50%" }} className="flexNullCenter flexColumn">
                 <ContactImgBox>
                   <img src={ContactImg1} alt="office" className="radius6" />
@@ -42,7 +43,7 @@ export default function Contact() {
                   <img src={ContactImg2} alt="office" className="radius6" />
                 </ContactImgBox>
               </div>
-              <div style={{ width: "50%" }}>
+              <div style={{ width: "50%", background: 'red' }}>
                 <div style={{ marginTop: "100px" }}>
                   <ContactImgBox>
 
@@ -50,7 +51,7 @@ export default function Contact() {
                   </ContactImgBox>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
