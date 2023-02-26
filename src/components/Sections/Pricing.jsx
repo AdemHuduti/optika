@@ -30,7 +30,7 @@ export default function Pricing() {
                   { name: "Product", cheked: false },
                   { name: "Product Offer", cheked: false },
                 ]}
-                action={() => alert("clicked")}
+                action={() => console.log("clicked")}
               />
             </TableBox>
             <TableBox>
@@ -46,7 +46,7 @@ export default function Pricing() {
                   { name: "Product", cheked: true },
                   { name: "Product Offer", cheked: false },
                 ]}
-                action={() => alert("clicked")}
+                action={() => console.log("clicked")}
               />
             </TableBox>
             <TableBox>
@@ -62,7 +62,7 @@ export default function Pricing() {
                   { name: "Product", cheked: true },
                   { name: "Product Offer", cheked: true },
                 ]}
-                action={() => alert("clicked")}
+                action={() => console.log("clicked")}
               />
             </TableBox>
           </TablesWrapper>

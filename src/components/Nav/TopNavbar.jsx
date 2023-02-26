@@ -6,6 +6,7 @@ import Sidebar from "../Nav/Sidebar";
 import Backdrop from "../Elements/Backdrop";
 // Assets
 // import LogoIcon from "../../assets/svg/Logo";
+import LogoIcon from "../../assets/img/logo.png";
 import BurgerIcon from "../../assets/svg/BurgerIcon";
 
 export default function TopNavbar() {
@@ -28,9 +29,10 @@ export default function TopNavbar() {
         <NavInner className="container flexSpaceCenter">
           <Link className="pointer flexNullCenter" to="home" smooth={true}>
             {/* <LogoIcon /> */}
-            <h1 style={{ marginLeft: "15px" }} className="font20 extraBold">
-              logo here
-            </h1>
+                  <img src={LogoIcon} alt="logo" style={{width: '20%'}} />
+            {/* <h1 style={{ marginLeft: "15px" }} className="font20 extraBold">
+              Euro Optik
+            </h1> */}
           </Link>
           <BurderWrapper className="pointer" onClick={() => toggleSidebar(!sidebarOpen)}>
             <BurgerIcon />
@@ -56,11 +58,11 @@ export default function TopNavbar() {
                 Blog
               </Link>
             </li>
-            <li className="semiBold font15 pointer">
+            {/* <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="pricing" spy={true} smooth={true} offset={-80}>
                 Pricing
               </Link>
-            </li>
+            </li> */}
             <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="contact" spy={true} smooth={true} offset={-80}>
                 Contact

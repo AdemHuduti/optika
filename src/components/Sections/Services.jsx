@@ -28,7 +28,7 @@ export default function Services() {
               labore et dolore magna aliquyam erat, sed diam voluptua.
             </p>
           </HeaderInfo>
-          <ServiceBoxRow className="flex">
+          {/* <ServiceBoxRow className="flex">
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="roller"
@@ -53,7 +53,7 @@ export default function Services() {
             <ServiceBoxWrapper>
               <ServiceBox icon="printer" title="Lorem ipsum" subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor." />
             </ServiceBoxWrapper>
-          </ServiceBoxRow>
+          </ServiceBoxRow> */}
         </div>
         <div className="lightBg">
           <div className="container">
@@ -66,10 +66,10 @@ export default function Services() {
                 </p>
                 <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
                   <div style={{ width: "190px" }}>
-                    <FullButton title="Get Started" action={() => alert("clicked")} />
+                    <FullButton title="Get Started" action={() => console.log("clicked")} />
                   </div>
                   <div style={{ width: "190px", marginLeft: "15px" }}>
-                    <FullButton title="Contact Us" action={() => alert("clicked")} border />
+                    <FullButton title="Contact Us" action={() => console.log("clicked")} border />
                   </div>
                 </ButtonsRow>
               </AddLeft>
