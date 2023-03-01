@@ -17,7 +17,7 @@ export default function Landing() {
       <MainVideo />
       <Header />
       <Services />
-      <Projects />
+      {/*<Projects />*/}
       <Blog />
       {/* <Pricing /> */}
       <Contact />
