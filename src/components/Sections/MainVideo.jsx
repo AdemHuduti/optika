@@ -5,7 +5,7 @@ import video from "../../assets/video/main-video.mp4";
 
 export default function MainVideo() {
   return (
-    <VideoWrapper>
+    <VideoWrapper id="video">
       <video
         src={video}
         width="100%"
