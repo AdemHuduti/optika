@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import styled from "styled-components";
 // Assets
-import ClientLogo01 from "../../assets/img/clients/logo01.svg"
+import ClientLogo01 from "../../assets/img/clients/Silhouette_logo_logotype.png"
 import ClientLogo02 from "../../assets/img/clients/logo02.svg";
 import ClientLogo03 from "../../assets/img/clients/logo03.svg";
 import ClientLogo04 from "../../assets/img/clients/logo04.svg";
@@ -44,7 +44,7 @@ export default function ClientSlider() {
     <div>
       <Slider {...settings}>
         <LogoWrapper className="flexCenter">
-          <ImgStyle src={ClientLogo01} alt="client logo" />
+        <a href="https://www.silhouette-group.com/" target={"_blank"} > <ImgStyle src={ClientLogo01} alt="client logo" /></a>
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
           <ImgStyle src={ClientLogo02} alt="client logo" />
@@ -85,6 +85,7 @@ const LogoWrapper = styled.div`
   :focus-visible {
     outline: none;
     border: 0px;
+  mix-blend-mode: color-burn;
   }
 `;
 const ImgStyle = styled.img`

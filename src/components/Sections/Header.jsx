@@ -20,7 +20,7 @@ Kompanija je specijalizovana za veleprodaju optičkih okvira, sočiva i satova. 
 
           </HeaderP>
           <BtnWrapper>
-            <FullButton title="Get Started" />
+            <FullButton title="Get Started" action={(services) => console.log("clicked")} />
           </BtnWrapper>
         </div>
       </LeftSide>
