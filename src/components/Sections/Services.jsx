@@ -21,11 +21,9 @@ export default function Services() {
       <div className="whiteBg" style={{ padding: "60px 0" }}>
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Our Awesome Services</h1>
+            <h1 className="font40 extraBold">The Silhouette Group</h1>
             <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+            has grown from a start-up to the global market leader in rimless premium eyewear, also leaving its unique mark on the full-rim eyewear market. Our success lies in our brand’s claim: We set the benchmark for premium eyewear. We don’t want to create just any eyewear - we want to create the world’s finest.
             </p>
           </HeaderInfo>
           {/* <ServiceBoxRow className="flex">

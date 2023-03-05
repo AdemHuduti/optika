@@ -10,7 +10,7 @@ export default function MainVideo() {
         src={video}
         width="100%"
         height="100%"
-        controls="controls"
+        controls=""
         autoPlay={true}
         muted
         loop
