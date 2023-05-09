@@ -42,7 +42,7 @@ export default function TopNavbar() {
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="home" spy={true} smooth={true} offset={-80}>
                 Home
               </Link>
-              <div class="dropdown-content">
+              <div className="dropdown-content">
                 <a href="#">Link 1</a>
                 <a href="#">Link 2</a>
                 <a href="#">Link 3</a>
@@ -53,11 +53,11 @@ export default function TopNavbar() {
                 Services
               </Link>
             </li>
-            <li className="semiBold font15 pointer">
+            {/* <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="projects" spy={true} smooth={true} offset={-80}>
                 Projects
               </Link>
-            </li>
+            </li> */}
             <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="blog" spy={true} smooth={true} offset={-80}>
                 Blog
