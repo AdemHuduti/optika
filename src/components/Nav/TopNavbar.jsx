@@ -40,7 +40,7 @@ export default function TopNavbar() {
           <UlWrapper className="flexNullCenter">
             <li className="semiBold font15 pointer li-parent">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="home" spy={true} smooth={true} offset={-80}>
-                Home
+                Početna
               </Link>
               <div className="dropdown-content">
                 <a href="#">Link 1</a>
@@ -50,7 +50,7 @@ export default function TopNavbar() {
             </li>
             <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="services" spy={true} smooth={true} offset={-80}>
-                Services
+                Servisi
               </Link>
             </li>
             {/* <li className="semiBold font15 pointer">
@@ -70,7 +70,7 @@ export default function TopNavbar() {
             </li> */}
             <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="contact" spy={true} smooth={true} offset={-80}>
-                Contact
+                Kontakt
               </Link>
             </li>
           </UlWrapper>
