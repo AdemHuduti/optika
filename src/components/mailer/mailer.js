@@ -9,9 +9,9 @@ async function main() {
 
   // create reusable transporter object using the default SMTP transport
   let transporter = nodemailer.createTransport({
-    host: "smtp.euro-optik.com",
-    port: 587,
-    secure: false, // true for 465, false for other ports
+    host: "pl19.fakat.net",
+    port: 465,
+    secure: true, // true for 465, false for other ports
     auth: {
       user: 'adna.idrizovic@euro-optik.com', 
       pass: 'Adna2020', 
