@@ -9,9 +9,14 @@ import Backdrop from "../Elements/Backdrop";
 import LogoIcon from "../../assets/img/logo.png";
 import BurgerIcon from "../../assets/svg/BurgerIcon";
 
+import { Link as ReactLink, useLocation } from 'react-router-dom'
+
+
 export default function TopNavbar() {
   const [y, setY] = useState(window.scrollY);
   const [sidebarOpen, toggleSidebar] = useState(false);
+
+  const location = useLocation();
 
   useEffect(() => {
     window.addEventListener("scroll", () => setY(window.scrollY));
@@ -46,23 +51,30 @@ export default function TopNavbar() {
                 <a href="#">Link 1</a>
                 <a href="#">Link 2</a>
                 <a href="#">Link 3</a>
-            </div>
+              </div>
             </li>
             <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="services" spy={true} smooth={true} offset={-80}>
-                Servisi
+                Portfolio
               </Link>
+            </li>
+            <li className="semiBold font15 pointer">
+            {/* <Link to="/huvitz" className="btn btn-6 btn-6d">Test</Link> */}
+              {/* <ReactLink style={{ color: location.pathname === "/huvitz"? 'red': '#0B093B'}} to="/huvitz"> */}
+              <ReactLink style={ location.pathname === "/huvitz" ? { borderBottom:'2px solid #FF0000', color: '#FF0000'} : { color: '#0B093B'}} to="/huvitz">
+                Huvitz
+              </ReactLink>
             </li>
             {/* <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="projects" spy={true} smooth={true} offset={-80}>
                 Projects
               </Link>
             </li> */}
-            <li className="semiBold font15 pointer">
+            {/* <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="blog" spy={true} smooth={true} offset={-80}>
                 Blog
               </Link>
-            </li>
+            </li> */}
             {/* <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="pricing" spy={true} smooth={true} offset={-80}>
                 Pricing

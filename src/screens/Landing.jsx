@@ -19,7 +19,7 @@ export default function Landing() {
       <Header />
       <Services />
       {/*<Projects />*/}
-      <Blog />
+      {/* <Blog /> */}
       {/* <Pricing /> */}
       <Contact />
       <MyMap />

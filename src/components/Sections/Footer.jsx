@@ -13,7 +13,7 @@ export default function Contact() {
 
   return (
     <Wrapper>
-      <div className="darkBg">
+      <div className="antracitBg">
         <div className="container">
           <InnerWrapper className="flexSpaceCenter" style={{ padding: "30px 0" }}>
                   <img src={LogoIcon} alt="logo" style={{width: '20%'}} />
