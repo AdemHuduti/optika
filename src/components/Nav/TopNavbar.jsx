@@ -32,13 +32,17 @@ export default function TopNavbar() {
       {sidebarOpen && <Backdrop toggleSidebar={toggleSidebar} />}
       <Wrapper className="flexCenter animate whiteBg" style={y > 100 ? { height: "60px" } : { height: "80px" }}>
         <NavInner className="container flexSpaceCenter">
-          <Link className="pointer flexNullCenter" to="home" smooth={true}>
-            {/* <LogoIcon /> */}
-                  <img src={LogoIcon} alt="logo" style={{width: '20%'}} />
-            {/* <h1 style={{ marginLeft: "15px" }} className="font20 extraBold">
-              Euro Optik
-            </h1> */}
-          </Link>
+          {
+            location.pathname === "/huvitz" ?
+            <ReactLink className="pointer flexNullCenter" to="/">
+              <img src={LogoIcon} alt="logo" style={{width: '20%'}} />
+            </ReactLink>
+            :
+            <Link className="pointer flexNullCenter" to="home" smooth={true}>
+              <img src={LogoIcon} alt="logo" style={{width: '20%'}} />
+            </Link>
+          }
+
           <BurderWrapper className="pointer" onClick={() => toggleSidebar(!sidebarOpen)}>
             <BurgerIcon />
           </BurderWrapper>
