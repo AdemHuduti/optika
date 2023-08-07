@@ -9,7 +9,7 @@ export default function Huvitz() {
       <TopNavbar />
       <div>
         <div id="huvitz" className="container">
-          <div className="huvitz-container">
+          <div className="huvitz-container huvitz-section">
           <div className="card">
             <div class="content">
               <div class="imgBx">

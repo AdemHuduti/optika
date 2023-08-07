@@ -392,14 +392,14 @@ body {
   padding-bottom: 80px;
 }
 
-section {
+.huvitz-section {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   /* background: #161616; */
   /* background: #333; */
-  min-height: 100vh;
+  min-height: 70vh;
 }
 
 /* section::before {
