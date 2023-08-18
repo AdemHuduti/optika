@@ -52,7 +52,7 @@ export default function TopNavbar() {
                 Početna
               </Link>
               <div className="dropdown-content">
-                <a href="http://localhost:3000/Huvitz">Link 1</a>
+                <a href="https://euro-optik.com/Huvitz">Link 1</a>
                 <a href="#">Link 2</a>
                 <a href="#">Link 3</a>
               </div>
