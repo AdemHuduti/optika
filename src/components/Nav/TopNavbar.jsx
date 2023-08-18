@@ -39,7 +39,7 @@ export default function TopNavbar() {
             </ReactLink>
             :
             <Link className="pointer flexNullCenter" to="home" smooth={true}>
-              <img src={LogoIcon} alt="logo" style={{width: '20%'}} />
+             <a href="https://euro-optik.com"> <img src={LogoIcon} alt="logo" style={{width: '20%'}} /></a>
             </Link>
           }
 
@@ -52,7 +52,7 @@ export default function TopNavbar() {
                 Početna
               </Link>
               <div className="dropdown-content">
-                <a href="#">Link 1</a>
+                <a href="http://localhost:3000/Huvitz">Link 1</a>
                 <a href="#">Link 2</a>
                 <a href="#">Link 3</a>
               </div>
